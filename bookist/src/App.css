@@ -3,6 +3,11 @@
  flex-direction: row;
  justify-content: flex-end;
 }
+.header{
+  position: absolute;
+  margin-right: 78vh;
+ 
+}
 /* 
 .App-logo {
   height: 40vmin;
@@ -47,6 +52,7 @@
   padding: 80px;
   border: solid 1px black;
   justify-content: center;
+  margin-top: 40px;
 }
 .col {
   display: flex;
@@ -72,7 +78,12 @@
   width: 6vh;
 }
 .booksFiltered {
-  display: flex;
-  flex-direction: column;
-  
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
+ margin-top: 20vh;
+height: 50%;
+width: 50%;
+font-size: 12px;
 }

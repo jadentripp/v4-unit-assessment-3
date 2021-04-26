@@ -35,6 +35,9 @@ class App extends Component {
   })
 
   filterBooks = (input) =>{
+    if (input ==''){
+      return
+    }
     input = input.toLowerCase();
     console.log(input)
     let filteredBooks = this.state.books.filter((book)=>{
